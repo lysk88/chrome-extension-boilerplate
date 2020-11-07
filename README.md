@@ -1,1 +1,2 @@
 # chrome-extension-boilerplate
+test

@@ -1,4 +1,4 @@
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((message, sender, callback) => {
     console.log("Background got a message!", message);
-    sendResponse({greeting: "hello from background!"});
+    callback({greeting: "hello from background!"});
 })

@@ -23,5 +23,4 @@ A basic Chrome Extention boilerplate for easy an kickstarting.
 
 ## Structure
 All your extension's code must be placed in the src folder.
-
 The boilerplate is already prepared to have a content and a background script.
